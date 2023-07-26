@@ -4,12 +4,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Wood3 {
+public class Tree3 {
 
-    private final Rabbit4 rabbit;
+    private Rabbit4 rabbit;
 
     @Autowired
-    public Wood3(Rabbit4 rabbit) {
+    public Tree3(Rabbit4 rabbit) {
         this.rabbit = rabbit;
     }
 
