@@ -4,6 +4,7 @@ It demonstrates how each method is implemented.
 ## Key Features:
 - @Autowired annotation-based dependency injection
 - Constructor-based dependency injection
-- Setter-based dependency injectionField-based dependency injection
+- Setter-based dependency injection
+- Field-based dependency injection
 - Using @Bean annotation in configuration files for defining beans
 - Test cases
